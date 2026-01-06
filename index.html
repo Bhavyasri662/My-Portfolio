@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhavya Sri | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">Bhavya Sri</div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#internships">Internships</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Hi, I’m <span>Bhavya Sri</span></h1>
+    <p>Final Year B.Tech Student | Aspiring AI & Web Developer</p>
+
+    <div class="buttons">
+      <a href="Bhavya_Resume1.pdf" class="btn" download>Download Resume</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="bow.jpeg" alt="Bhavya Sri">
+    <div class="socials">
+      <a href="https://github.com/Bhavyasri662" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/in/bhavya-sri-chattumala-65b270257" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="mailto:bhavyasriii123@gmail.com"><i class='bx bx-envelope'></i></a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I am a final-year B.Tech student specializing in Artificial Intelligence and Data Science.
+    I enjoy building machine learning models and simple web applications that solve real-world problems.
+    I am a quick learner, self-motivated, and passionate about continuous learning.
+  </p>
+</section>
+
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card"><h3>Programming</h3><p>Python, Java</p></div>
+    <div class="card"><h3>Web Technologies</h3><p>HTML, CSS, JavaScript</p></div>
+    <div class="card"><h3>Machine Learning</h3><p>ML Basics, Model Training</p></div>
+    <div class="card"><h3>Databases</h3><p>SQL</p></div>
+    <div class="card"><h3>CS Fundamentals</h3><p>DBMS</p></div>
+    <div class="card"><h3>Soft Skills</h3><p>Teamwork, Quick Learner</p></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="grid two">
+    <div class="card">
+      <h3>Crop Prediction System</h3>
+      <p>ML-based system using Random Forest with a web interface.</p>
+      <span>Python, ML, HTML, CSS</span>
+    </div>
+    <div class="card">
+      <h3>SMS Spam Detection</h3>
+      <p>Spam classification using Logistic Regression and TF-IDF.</p>
+      <span>Python, ML, Flask</span>
+    </div>
+  </div>
+</section>
+
+<section id="internships" class="section">
+  <h2>Internships</h2>
+  <div class="grid two">
+    <div class="card">
+      <h3>Zero Trust Cloud Security</h3>
+      <p>Eduskills (Virtual)</p>
+    </div>
+    <div class="card">
+      <h3>Data Science Intern</h3>
+      <p>Skilldzire (Virtual)</p>
+    </div>
+  </div>
+</section>
+
+<section id="certifications" class="section">
+  <h2>Certifications</h2>
+  <ul class="cert-list">
+    <li><a href="NPTL DBMS.pdf" target="_blank">Database Management Systems – NPTEL</a></li>
+    <li><a href="oracle.pdf" target="_blank">Cloud Infrastructure Associate – Oracle</a></li>
+    <li><a href="edx.jpg" target="_blank">Data Science using Python – Harvard EdX</a></li>
+  </ul>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="status"></p>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
